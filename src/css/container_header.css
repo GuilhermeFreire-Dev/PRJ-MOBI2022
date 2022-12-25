@@ -51,7 +51,40 @@
     border-radius: 100%;
 }
 
-/* Parâmetros de estilização para mobile */
+@media screen and (max-width: 800px ) {
+    .container-header {
+        width: 100%;
+        height: 6rem;
+        margin: 0%;
+    }
+
+    .header-logo {
+        width: 9rem;
+        height: 100%;
+        margin-left: 0.5rem;
+    }
+
+    .logo-mobility {
+        width: 100%;
+        height: 85%;
+        margin-left: 1rem;
+    }
+
+    .header-button {
+        margin: 1rem 1rem;
+    }
+
+    .txt-button {
+        font-size: 15px;
+    }
+    
+    .icon {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+}
+
+/* Estilização para dispositivos mobile */
 @media screen and (max-width: 360px ) {
     .container-header {
         display: flex;
@@ -63,7 +96,6 @@
 
     .header-logo {
         width: 7rem;
-        height: 100%;
         margin-left: 0.5rem;
     }
 
@@ -74,18 +106,14 @@
     }
 
     .header-buttons {
-        display: flex;
         width: 25%;
         margin: 10px 0px;
-        text-transform: uppercase;
-        justify-content: end;
     }
 
     .header-button {
         width: 100%;
         height: 1rem;
         margin: 0px 0px;
-        color: #FFF;
         justify-content: center;
     }
 
@@ -99,4 +127,4 @@
     }
     
 }
-/* Fim dos parâmetros de estilização para mobile */
+/* Fim da estilização para dispositivos mobile */
