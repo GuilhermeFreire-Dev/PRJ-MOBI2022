@@ -1,0 +1,10 @@
+.container-busca {
+    width: 90%;
+    height: 8rem;
+    margin: 0% 5%;
+    background-color: rgb(102, 252, 232);
+}
+
+.container-inputs {
+    background-color: rgb(104, 127, 255);
+}

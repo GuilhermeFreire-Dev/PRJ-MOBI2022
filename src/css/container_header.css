@@ -1,0 +1,102 @@
+
+.container-header {
+    display: flex;
+    width: 90%;
+    height: 10rem;
+    margin: 0% 5%;
+    background-color: #121212;
+}
+
+.header-logo {
+    width: 20rem;
+    height: 100%;
+}
+
+.logo-mobility {
+    width: 85%;
+    height: 85%;
+    margin-left: 3rem;
+}
+
+.header-buttons {
+    display: flex;
+    width: 95%;
+    text-transform: uppercase;
+    justify-content: end;
+}
+
+.header-button {
+    display: flex;
+    height: 1.7rem;
+    margin: 1rem 1rem;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.login {
+    margin-right: 5rem;
+}
+
+.txt-button {
+    margin: 0.3rem 0rem 0rem 0.5rem;
+}
+
+.icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.btn-login {
+    border: 2px #FFF solid;
+    border-radius: 100%;
+}
+
+/* Parâmetros de estilização para mobile */
+@media screen and (max-width: 360px ) {
+    .container-header {
+        display: flex;
+        width: 100%;
+        height: 6rem;
+        margin: 0%;
+        justify-content: space-between;
+    }
+
+    .header-logo {
+        width: 7rem;
+        height: 100%;
+        margin-left: 0.5rem;
+    }
+
+    .logo-mobility {
+        width: 100%;
+        height: 85%;
+        margin-left: 0rem;
+    }
+
+    .header-buttons {
+        display: flex;
+        width: 25%;
+        margin: 10px 0px;
+        text-transform: uppercase;
+        justify-content: end;
+    }
+
+    .header-button {
+        width: 100%;
+        height: 1rem;
+        margin: 0px 0px;
+        color: #FFF;
+        justify-content: center;
+    }
+
+    .icon {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    .txt-button {
+        display: none;
+    }
+    
+}
+/* Fim dos parâmetros de estilização para mobile */
