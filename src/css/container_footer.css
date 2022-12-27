@@ -1,0 +1,143 @@
+footer {
+    width: 100%;
+    height: 18rem;
+    background-color: #272727;
+}
+
+.container-info {
+    display: flex;
+}
+
+.footer-logo {
+    padding: 0rem 5rem 0rem 2rem;
+}
+
+.mobility-footer {
+    width: 15rem;
+    height: 15rem;
+}
+
+.footer-icon {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.contato {
+    width: 15rem;
+    display: flex;
+    align-items: center;
+}
+
+.telefone-num {
+    color: #FFF;
+    font-size: 18px;
+    margin: 0.5rem;
+}
+
+.localizacao {
+    display: flex;
+    width: 20rem;
+    align-items: center;
+}
+
+.local-cidade {
+    color: #FFF;
+    font-size: 18px;
+    margin: 0.5rem
+}
+
+#copyright {
+    color: #FFF;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px ) {
+    footer {
+        width: 100%;
+        height: 12rem;
+    }
+
+    .footer-logo {
+        padding: 0rem 2rem 0rem 2rem;
+    }
+    
+    .mobility-footer {
+        width: 10rem;
+        height: 10rem;
+    }
+    
+    .footer-icon {
+        width: 2rem;
+        height: 2rem;
+    }
+    
+    .contato {
+        width: 10rem;
+    }
+    
+    .telefone-num {
+        font-size: 12px;
+    }
+    
+    .localizacao {
+        width: 15rem;
+    }
+    
+    .local-cidade {
+        font-size: 12px;
+    }
+    
+    #copyright {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 600px ) {
+    footer {
+        width: 100%;
+        height: 16rem;
+    }
+
+    .container-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-logo {
+        padding: 0rem 1.5rem;
+    }
+    
+    .mobility-footer {
+        width: 7rem;
+        height: 7rem;
+    }
+    
+    .footer-icon {
+        width: 2rem;
+        height: 2rem;
+    }
+    
+    .contato {
+        margin-left: 1.5rem;
+        width: 10rem;
+    }
+    
+    .telefone-num {
+        font-size: 12px;
+    }
+    
+    .localizacao {
+        margin-left: 1.5rem;
+        width: 15rem;
+    }
+    
+    .local-cidade {
+        font-size: 12px;
+    }
+    
+    #copyright {
+        margin-top: 1rem;
+        font-size: 10px;
+    }
+}

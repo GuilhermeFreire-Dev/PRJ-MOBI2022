@@ -12,7 +12,7 @@
     height: 100%;
 }
 
-.logo-mobility {
+.mobility-header {
     width: 85%;
     height: 85%;
     margin-left: 3rem;
@@ -41,7 +41,7 @@
     margin: 0.3rem 0rem 0rem 0.5rem;
 }
 
-.icon {
+.btn-icon {
     width: 1.5rem;
     height: 1.5rem;
 }
@@ -64,7 +64,7 @@
         margin-left: 0.5rem;
     }
 
-    .logo-mobility {
+    .mobility-header {
         width: 100%;
         height: 85%;
         margin-left: 1rem;
@@ -78,7 +78,7 @@
         font-size: 15px;
     }
     
-    .icon {
+    .btn-icon  {
         width: 1.2rem;
         height: 1.2rem;
     }
@@ -99,7 +99,7 @@
         margin-left: 0.5rem;
     }
 
-    .logo-mobility {
+    .mobility-header {
         width: 100%;
         height: 85%;
         margin-left: 0rem;
@@ -117,7 +117,7 @@
         justify-content: center;
     }
 
-    .icon {
+    .btn-icon  {
         width: 1.2rem;
         height: 1.2rem;
     }

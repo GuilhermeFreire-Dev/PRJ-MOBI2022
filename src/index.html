@@ -6,24 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobility - Aluguel de veículos</title>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/container_header.css">
     <link rel="stylesheet" href="./css/container_busca.css">
+    <link rel="stylesheet" href="./css/container_footer.css">
 </head>
 <body>
     <header>
         <div class="container-header">
             <div class="header-logo">
-                <img class="logo-mobility" src="../public/resources/icons/logo.svg" alt="">
+                <img class="mobility-header" src="../public/resources/icons/logo.svg" alt="">
             </div>
             <div class="header-buttons">
                 <span class="header-button reservas">
-                    <img class="btn-reservas icon" src="../public/resources/icons/key.svg" alt="">
+                    <img class="btn-reservas btn-icon" src="../public/resources/icons/key.svg" alt="">
                     <p class="txt-button reservas">minhas reservas</p>
                 </span>
                 <span class="header-button login">
-                    <img class="btn-login icon" src="../public/resources/icons/user.svg" alt="">
+                    <img class="btn-login btn-icon" src="../public/resources/icons/user.svg" alt="">
                     <p class="txt-button login">login</p>
                 </span>
             </div>
@@ -31,7 +34,7 @@
         <div class="container-busca">
             <h5 class="header-busca">Alugue um veículo</h5>
             <div class="container-inputs">
-                <input type="text" class="input-busca local" placeholder="digite o local de retirada">
+                <input type="text" class="input-busca local-retirada" placeholder="digite o local de retirada">
                 <input type="date" class="input-busca data-retirada" placeholder="retirar quando?">
                 <input type="date" class="input-busca data-devolucao" placeholder="até quando?">
                 <button type="submit" class="btn-busca">buscar</button> 
@@ -50,7 +53,26 @@
         </div>
     </div>
     <footer>
-
+        <div class="container-info">
+            <div class="footer-logo">
+                <img class="mobility-footer" src="../public/resources/icons/mobility.svg" alt="">
+            </div>
+            <div class="contato">
+                <img class="telefone-icon footer-icon" src="../public/resources/icons/phone.svg" alt="">
+                <div class="telefone">
+                    <p class="telefone-num">(62)3211-2345</p>
+                    <p class="telefone-num">(62)3654-4456</p>
+                </div>
+            </div>
+            <div class="localizacao">
+                <img class="local-icon footer-icon" src="../public/resources/icons/marker.svg" alt="">
+                <div class="local">
+                    <p class="local-cidade">Goiânia - GO</p>
+                    <p class="local-cidade">Aparecida de Goiânia - GO</p>
+                </div>
+            </div>
+        </div>
+        <p id="copyright">© 2022 Mobility - Todos os direitos reservados</p>
     </footer>
 </body>
 </html>
